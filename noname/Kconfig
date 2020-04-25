@@ -1,0 +1,14 @@
+if VENDOR_noname
+choice
+	prompt "Mainboard model"
+
+source "src/mainboard/noname/*/Kconfig.name"
+
+endchoice
+
+source "src/mainboard/noname/*/Kconfig"
+
+config MAINBOARD_VENDOR
+	default "H61M-S1"
+
+endif # VENDOR_noname
