@@ -9,6 +9,7 @@ The port has been made using autoport sript
 
 * The folder INFOS containe some outputs of the motherboard
 * The folder ROM_AND_BLOBS contain original ROM and coreboot barely functionnal ROM (see Currunt status for more infos)
+* Coreboot.config file contiane .config file used to compile the rom
 
 # Currunt status
 
