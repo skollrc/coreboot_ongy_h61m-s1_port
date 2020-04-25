@@ -1,4 +1,4 @@
-if BOARD_H61M-S1
+if BOARD_H61M_S1
 
 config BOARD_SPECIFIC_OPTIONS
 	def_bool y
