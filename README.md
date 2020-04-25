@@ -11,6 +11,7 @@ The port has been made using autoport sript
 * The folder ROM_AND_BLOBS contain original ROM and coreboot barely functionnal ROM (see Currunt status for more infos)
 * Coreboot.config file contiane .config file used to compile the rom
 * noname folder contain the folder to put in src/mainboard dir
+* By default, all the original bios is readable and writable everythings can be done with <code> flashrom -p internal </code> command
 
 # Currunt status
 
