@@ -17,5 +17,6 @@ The port has been made using autoport sript
 
 * Restart, S3 resume and shutdown works
 * Network works
-* USB boot works
-* SATA does not works (don't know why yet)
+* USB boot works (both USB 2.0 and 3.0)
+* SATA works
+* Sound Works
