@@ -20,3 +20,8 @@ The port has been made using autoport sript
 * USB boot works (both USB 2.0 and 3.0)
 * SATA works
 * Sound Works
+
+# Testing hardware configuration:
+Xeon E3-1245 V2, 8GB RAM GSKILL DDR3 1333Mhz, Kingspec 180G SSD
+Boot Ubuntu live throught USB 2.0 and 3.0
+Boot Windows 10 and Debian 9 via sata port 1 to 4
