@@ -8,9 +8,9 @@ The port has been made using autoport sript
 # Usefull Infos
 
 * The folder INFOS containe some outputs of the motherboard
-* The folder ROM_AND_BLOBS contain original ROM and coreboot barely functionnal ROM (see Currunt Issues for more infos)
+* The folder ROM_AND_BLOBS contain original ROM and coreboot barely functionnal ROM (see Currunt status for more infos)
 
-# Currunt issues
+# Currunt status
 
 * Restart, S3 resume and shutdown works
 * Network works
