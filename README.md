@@ -22,7 +22,8 @@ The port has been made using autoport sript. It is not a rebranded GA-H61M-S1 ev
 * SATA works
 * Sound works
 * VGA works (HDMI not tested yet)
-* coreboot image with seabios (tianocore not tested yet)
+* Seabios payload works fine
+* Tianocore doesn't work yet
 
 # Testing hardware configuration:
 * i5 2500k, 8GB RAM GSKILL DDR3 1333Mhz, Kingspec 180G SSD
