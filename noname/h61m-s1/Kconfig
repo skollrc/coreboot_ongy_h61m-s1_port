@@ -6,7 +6,7 @@ config BOARD_SPECIFIC_OPTIONS
 	select HAVE_ACPI_RESUME
 	select HAVE_ACPI_TABLES
 	select INTEL_INT15
-	select MAINBOARD_HAS_LIBGFXINIT # FIXME: check this
+	select MAINBOARD_HAS_LIBGFXINIT
 	select NORTHBRIDGE_INTEL_SANDYBRIDGE
 	select SERIRQ_CONTINUOUS_MODE
 	select SOUTHBRIDGE_INTEL_BD82X6X
@@ -14,7 +14,7 @@ config BOARD_SPECIFIC_OPTIONS
 
 config MAINBOARD_DIR
 	string
-	default noname/h61m-s1
+	default ongy/h61m-s1
 
 config MAINBOARD_PART_NUMBER
 	string
@@ -28,7 +28,7 @@ config VGA_BIOS_ID
 	string
 	default "8086,0112"
 
-config DRAM_RESET_GATE_GPIO # FIXME: check this
+config DRAM_RESET_GATE_GPIO
 	int
 	default 60
 
@@ -36,7 +36,7 @@ config MAX_CPUS
 	int
 	default 8
 
-config USBDEBUG_HCD_INDEX # FIXME: check this
+config USBDEBUG_HCD_INDEX
 	int
 	default 2
 endif

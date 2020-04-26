@@ -1,2 +1,2 @@
-config VENDOR_noname
-	bool "noname"
+config VENDOR_ONGY
+	bool "ongy"

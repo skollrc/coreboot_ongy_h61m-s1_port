@@ -1,14 +1,14 @@
-if VENDOR_noname
+if VENDOR_ONGY
 choice
 	prompt "Mainboard model"
 
-source "src/mainboard/noname/*/Kconfig.name"
+source "src/mainboard/ongy/*/Kconfig.name"
 
 endchoice
 
-source "src/mainboard/noname/*/Kconfig"
+source "src/mainboard/ongy/*/Kconfig"
 
 config MAINBOARD_VENDOR
 	default "H61M-S1"
 
-endif # VENDOR_noname
+endif # VENDOR_ONGY
