@@ -1,0 +1,2 @@
+config BOARD_H61M_S1
+	bool "h61m-s1"
