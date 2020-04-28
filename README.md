@@ -19,13 +19,14 @@ The port has been made using autoport sript. It is not a rebranded GA-H61M-S1 ev
 # Currunt status
 
 * Restart, S3 resume and shutdown works
-* Network works
+* Network works (not tested for PXE boot, just with loaded OS)
 * USB boot works (USB 2.0 only - USB 3.0 works sometimes but not always, don't why yet - Works when OS is loaded)
-* SATA works
-* Sound works
-* VGA works (HDMI not tested yet)
+* SATA works (all ports)
+* integrated Sound works
+* Integrated VGA and HDMI works
+* PCIe 16x port (with HD5450 - VGA only)
 * Seabios payload works fine
-* Tianocore doesn't work yet
+* Tianocore doesn't works (don't know why yet)
 * code submeted to coreboot review - Appril 28 2020
 * I asked to all vendors where I can find the official documentation of this board (if exist)
 * you can discuss about this board [on Reddit Coreboot page](https://www.reddit.com/r/coreboot/comments/g83hl3/new_motherboard_port_still_in_version_000001_and)
@@ -33,4 +34,4 @@ The port has been made using autoport sript. It is not a rebranded GA-H61M-S1 ev
 # Testing hardware configuration:
 * i5 2500k, 8GB RAM GSKILL DDR3 1333Mhz, Kingspec 180G SSD
 * Boot Ubuntu live throught USB 2.0 (USB 3.0 is actually buggy but works fine when OS is loaded)
-* Boot Windows 10 and Debian 9 via sata port 1 to 4 (AHCI mode)
+* Boot Windows 10 and Ubuntu 18.04 LTS via sata port 1 to 4 (AHCI mode)
