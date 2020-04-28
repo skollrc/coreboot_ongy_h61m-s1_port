@@ -1,4 +1,4 @@
-# coreboot_noname_h61M-S1_port
+# coreboot_ongy_h61M-S1_port
 
 **NOTE: there is may vendor names so I chose Ongy arbitraily to avoid "noname" vendor name.**
 
