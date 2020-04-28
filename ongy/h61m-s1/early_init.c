@@ -1,8 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /* This file is part of the coreboot project. */
 
-/* FIXME: Check if all includes are needed. */
-
 #include <stdint.h>
 #include <string.h>
 #include <timestamp.h>
