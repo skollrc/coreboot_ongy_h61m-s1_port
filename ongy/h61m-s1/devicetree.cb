@@ -57,14 +57,6 @@ chip northbridge/intel/sandybridge
 				subsystemid 0x8086 0x1c10
 			end
 			device pci 1c.1 off end # PCIe Port #2
-			device pci 1c.2 off end # PCIe Port #3
-			device pci 1c.3 off end # PCIe Port #4
-			device pci 1c.4 off end # PCIe Port #5
-			device pci 1c.5 on # PCIe Port #6
-				subsystemid 0x8086 0x1c1a
-			end
-			device pci 1c.6 off end # PCIe Port #7
-			device pci 1c.7 off end # PCIe Port #8
 			device pci 1d.0 on # USB2 EHCI #1
 				subsystemid 0x8086 0x1c26
 			end
@@ -79,8 +71,6 @@ chip northbridge/intel/sandybridge
 				subsystemid 0x8086 0x1c22
 			end
 			device pci 1f.5 off end # SATA Controller 2
-
-			device pci 1f.6 off end # Thermal
 		end
 		device pci 00.0 on # Host bridge Host bridge
 			subsystemid 0x8086 0x0100

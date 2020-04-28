@@ -1,2 +1,2 @@
 config VENDOR_ONGY
-	bool "ongy"
+	bool "Ongy"

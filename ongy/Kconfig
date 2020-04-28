@@ -9,6 +9,6 @@ endchoice
 source "src/mainboard/ongy/*/Kconfig"
 
 config MAINBOARD_VENDOR
-	default "H61M-S1"
+	default "Ongy"
 
 endif # VENDOR_ONGY
