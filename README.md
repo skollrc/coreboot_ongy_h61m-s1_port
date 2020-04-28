@@ -35,3 +35,8 @@ The port has been made using autoport sript. It is not a rebranded GA-H61M-S1 ev
 * i5 2500k, 8GB RAM GSKILL DDR3 1333Mhz, Kingspec 180G SSD
 * Boot Ubuntu live throught USB 2.0 (USB 3.0 is actually buggy but works fine when OS is loaded)
 * Boot Windows 10 and Ubuntu 18.04 LTS via sata port 1 to 4 (AHCI mode)
+
+# Pictures of the board
+![Face](images/Ongy_Face.PNG)
+
+![Side](images/Ongy_Side.PNG)
