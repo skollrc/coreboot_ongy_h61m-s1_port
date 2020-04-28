@@ -27,6 +27,7 @@ The port has been made using autoport sript. It is not a rebranded GA-H61M-S1 ev
 * Seabios payload works fine
 * Tianocore doesn't work yet
 * code submeted to coreboot review - Appril 28 2020
+* I asked to all vendors where I can find the official documentation of this board (if exist)
 * you can discuss about this board [on Reddit Coreboot page](https://www.reddit.com/r/coreboot/comments/g83hl3/new_motherboard_port_still_in_version_000001_and)
 
 # Testing hardware configuration:
