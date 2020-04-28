@@ -1,6 +1,6 @@
 # coreboot_ongy_h61M-S1_port
 
-**NOTE: there is may vendor names so I chose Ongy arbitraily to avoid "noname" vendor name.**
+**NOTE: there is many vendor names so I chose Ongy arbitraily to avoid "noname" vendor name.**
 
 The motherboard can be easily found on the web (many resaler arround 40€ brand new) see here:
 * [FRENCH](https://fr.aliexpress.com/item/4000389822919.html?spm=a2g0s.9042311.0.0.57e76c37nCrNWl)
