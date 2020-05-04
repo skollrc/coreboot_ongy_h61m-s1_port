@@ -13,7 +13,7 @@ The port has been made using autoport sript. It is not a rebranded GA-H61M-S1 ev
 * The folder INFOS containe some outputs of the motherboard
 * The folder ROM_AND_DOC contain original ROM and official documentation
 * Coreboot.config file contiane .config file used to compile the rom
-* noname folder contain the folder to put in src/mainboard dir
+* Noname folder contain the folder to put in src/mainboard dir
 * By default, all the original bios is readable and writable everythings can be done with <code> flashrom -p internal </code> command
 
 # Currunt status
