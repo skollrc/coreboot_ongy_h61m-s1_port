@@ -1,0 +1,14 @@
+if VENDOR_ONGY
+choice
+	prompt "Mainboard model"
+
+source "src/mainboard/ongy/*/Kconfig.name"
+
+endchoice
+
+source "src/mainboard/ongy/*/Kconfig"
+
+config MAINBOARD_VENDOR
+	default "Ongy"
+
+endif # VENDOR_ONGY

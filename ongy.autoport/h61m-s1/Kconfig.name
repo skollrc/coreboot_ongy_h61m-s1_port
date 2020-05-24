@@ -1,0 +1,2 @@
+config BOARD_ONGY_H61M_S1
+	bool "H61M-S1"

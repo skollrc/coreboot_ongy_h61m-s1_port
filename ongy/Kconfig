@@ -1,4 +1,5 @@
 if VENDOR_ONGY
+
 choice
 	prompt "Mainboard model"
 
